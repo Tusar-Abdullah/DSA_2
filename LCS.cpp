@@ -7,7 +7,7 @@ using namespace std;
 void LCS(string s1,int m,string s2,int n)
 {
     int dp[m+1][n+1];
-    int i,j;
+    //int i,j;
 
     for(int i=0; i<=m; i++)
         {
